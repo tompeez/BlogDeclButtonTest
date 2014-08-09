@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.1.3.9.1" id="DataBindings" SeparateXMLFiles="false"
+             Package="de.hahn.blog.declbuttontest.view" ClientType="Generic">
+  <pageMap>
+    <page path="/Start.jspx" usageId="de_hahn_blog_declbuttontest_view_StartPageDef"/>
+    <page path="/Startjsf.jsf" usageId="de_hahn_blog_declbuttontest_view_StartjsfPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="de_hahn_blog_declbuttontest_view_StartPageDef" path="de.hahn.blog.declbuttontest.view.pageDefs.StartPageDef"/>
+    <page id="de_hahn_blog_declbuttontest_view_StartjsfPageDef" path="de.hahn.blog.declbuttontest.view.pageDefs.StartjsfPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <BC4JDataControl id="BDBTAppModuleDataControl" Package="de.hahn.blog.declbuttontest.model.adfbc.service"
+                     FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl" SupportsTransactions="true" SupportsFindMode="true" SupportsRangesize="true"
+                     SupportsResetState="true" SupportsSortCollection="true" Configuration="BDBTAppModuleLocal" syncMode="Immediate"
+                     xmlns="http://xmlns.oracle.com/adfm/datacontrol"/>
+  </dataControlUsages>
+</Application>

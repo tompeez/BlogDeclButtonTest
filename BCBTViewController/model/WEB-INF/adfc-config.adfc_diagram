@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SDM>
+   <OverallProperties
+      id="OverallProperties1"/>
+   <View
+      id="View2">
+      <property
+         name="activityId">Start</property>
+      <property
+         name="page">/Start.jspx</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>Start&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">146.03125</property>
+      <property
+         name="x">592.0</property>
+   </View>
+   <View
+      id="View3">
+      <property
+         name="activityId">Startjsf</property>
+      <property
+         name="page">/Startjsf.jsf</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>Startjsf&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">282.03125</property>
+      <property
+         name="x">733.0</property>
+   </View>
+</SDM>
